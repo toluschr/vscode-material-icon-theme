@@ -6,7 +6,8 @@ import { FileIcons, IconPack } from '../models/index';
 export const fileIcons: FileIcons = {
     defaultIcon: { name: 'file' },
     icons: [
-        { name: 'qt', fileExtensions: ['moc', 'qml'] },
+        { name: 'object', fileExtensions: ['o'] },
+					   { name: 'qt', fileExtensions: ['moc', 'qml'] },
         { name: 'html', fileExtensions: ['html', 'htm', 'xhtml', 'html_vm', 'asp'] },
         {
             name: 'pug',
